@@ -18,7 +18,7 @@ function App() {
   const deleteItems=(id)=>{
     setFinalItem((oldItems)=>{
       return oldItems.filter((arrElement,index)=>{
-        return index!=id;
+        return index!==id;
 
       })
     })
