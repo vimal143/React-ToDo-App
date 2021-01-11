@@ -5,7 +5,7 @@
 .main_div{
   width: 100%;
   height: 100vh;
-  background-color: cadetblue;
+  background-color: #03C6C7;
   justify-content: center;
   display: flex;
   flex-direction: row;
@@ -99,9 +99,9 @@ ol li{
 .todo_style .fa-times:hover{
   background-color: red;
 }
-@media (max-width:768px){
+@media (max-width:480px){
   .center_div{
-    width: 55%;
+    width: 60%;
   
 
   }
