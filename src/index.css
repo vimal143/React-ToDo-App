@@ -6,16 +6,16 @@
   width: 100%;
   height: 100vh;
   background-color: cadetblue;
-  align-content: center;
   justify-content: center;
   display: flex;
   flex-direction: row;
+  align-items: center;
   text-align: center;
 }
 .center_div{
   background-color: antiquewhite;
   width: 25%;
-  margin-top: 80px;
+  /* margin-top: 80px; */
   height: 80vh;
   box-shadow: 5px 5px 25px -5px rgba(0,0,0,0.5);
   border-radius: 15px;
@@ -99,9 +99,10 @@ ol li{
 .todo_style .fa-times:hover{
   background-color: red;
 }
-@media(max-wdth:768px){
+@media (max-width:768px){
   .center_div{
-    widows: 55%;
+    width: 55%;
+  
 
   }
   .todo_style .fa-times{
